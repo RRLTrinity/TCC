@@ -44,7 +44,7 @@ args = vars(ap.parse_args())
 
 #define the model face_detector()
 detector1 = dlib.get_frontal_face_detector()
-detector2 = dlib.cnn_face_detection.py(mmod_human_face_detector.dat)
+detector2 = dlib.cnn_face_detection_model_v1(mmod_human_face_detector.dat)
 
 #Select the image, resize it and then convert to rgb
 
