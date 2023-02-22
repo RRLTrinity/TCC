@@ -11,6 +11,7 @@ import sys
 import pdb
 import face_detect
 
+
 def gaussianPyrDown (image,levels):
     cI = image.copy()
     gp = [image]
